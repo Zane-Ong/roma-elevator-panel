@@ -1,0 +1,7 @@
+{
+  "variant": "outdoor",
+  "confidence": 0.8,
+  "max_matches": 10000,
+  "ransac_px": 3.0,
+  "cache": true
+}

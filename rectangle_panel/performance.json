@@ -1,0 +1,33 @@
+{
+  "load_seconds": 6.1976347000017995,
+  "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "resolution": [
+    560,
+    864
+  ],
+  "test": "fixed user reference with known synthetic perspective; unchanged full model and precision",
+  "results": [
+    {
+      "mode": "official",
+      "seconds": [
+        28.971384500000568,
+        2.1234704999988026,
+        1.708817700000509
+      ],
+      "warm_median_seconds": 1.9161440999996557,
+      "max_transfer_error_px": 0.10879720002412796
+    },
+    {
+      "mode": "cached",
+      "seconds": [
+        7.600347600000532,
+        1.1334591999984696,
+        1.1308911999985867
+      ],
+      "warm_median_seconds": 1.1321751999985281,
+      "max_transfer_error_px": 0.1101800873875618
+    }
+  ],
+  "warm_speedup": 1.6924448618925294,
+  "cache_tensors_MB": 245.76171875
+}
